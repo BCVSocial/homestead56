@@ -34,7 +34,7 @@ For more information on how to setup homestead official documentation [is locate
         - map: activesocial.bcv.dev ## Important, this is one of the allowed hostnames inside web/app_dev.php file.
           to: /home/vagrant/BCVSocial/ActiveSocial/web
           type: symfony
-  ```         
+    ```         
          
          
 7. `vagrant provision & vagrant reload`
