@@ -48,10 +48,35 @@ For more information on how to setup homestead official documentation [is locate
 
 9. Finally, if you try and run `vagrant ssh` you should be able to ssh into the virtual machine, to continue with the symfony setup.
 
-### What's next ?
+### Symfony Steps
+
+1. 
 
 After following these steps you should have a decent vagrant setup should continue with steps outlined [is located here](https://github.com/BCVSocial/ActiveSocial)
+
+### TODO
+
+Improve performance, it's a littles slow. See http://www.whitewashing.de/2013/08/19/speedup_symfony2_on_vagrant_boxes.html
 
 ### Improvements ? 
 
 Go ahead =)
+
+## Note: 
+
+### If you encounter: 
+
+```
+NFS is reporting that your exports file is invalid. Vagrant does
+this check before making any changes to the file. Please correct
+the issues below and execute "vagrant reload":
+```
+
+### Run: 
+```
+sudo rm /etc/exports
+sudo touch /etc/exports
+
+vagrant halt
+vagrant up --provision
+```
