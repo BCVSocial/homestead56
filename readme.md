@@ -12,7 +12,7 @@ Start by running `bash init.sh` within the main directory after cloning, this cr
 
 For more information on how to setup homestead official documentation [is located here](https://laravel.com/docs/5.3/homestead).
 
-### Steps
+### Vagrant/Server Steps
 
 1. Install *Virtual Box* and *Vagrant* if not already installed.
 
@@ -49,16 +49,35 @@ For more information on how to setup homestead official documentation [is locate
 9. Finally, if you try and run `vagrant ssh` you should be able to ssh into the virtual machine, to continue with the symfony setup.
 
 10. login to postgres to check where the pg_hba.conf file is:
-    * 1
-    * 2
+    * `psql -U homestead -h localhost` password is secret
+    * `SHOW hba_file;` Should be `/etc/postgresql/9.4/main/pg_hba.conf`
+    
+11. Edit the file and look for the following lines: 
+    ```
+        TYPE  DATABASE        USER            ADDRESS                 METHOD
 
+        host    all             all             127.0.0.1/32            md5
+
+        host    all             PC             127.0.0.1/32             md5
+
+        host    all             all             ::1/128                 md5
+    ```
+    * Change all ocurrences of `md5` to `trust`
+    
+ 12. Run `sudo service postgresql restart`  
+    
 ### Symfony Steps
 
 1. `cd` into the main project `ActiveSocial` and run `composer install` wait, follow instructions, wait some more.
 
-2. 
+2. `php app/console doctrine:database:create`
 
-After following these steps you should have a decent vagrant setup should continue with steps outlined [is located here](https://github.com/BCVSocial/ActiveSocial)
+3. `php app/console doctrine:schema:update --force`
+
+4. `php app/console hautelook_alice:doctrine:fixtures:load` 
+
+
+After following these steps you should have a decent vagrant/symfony setup.
 
 ### TODO
 
