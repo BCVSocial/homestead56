@@ -12,7 +12,7 @@ Start by running `bash init.sh` within the main directory after cloning, this cr
 
 For more information on how to setup homestead official documentation [is located here](https://laravel.com/docs/5.3/homestead).
 
-### Vagrant/Server Steps
+## Vagrant/Server Steps
 
 1. Install *Virtual Box* and *Vagrant* if not already installed.
 
@@ -67,7 +67,7 @@ For more information on how to setup homestead official documentation [is locate
     
 12. Run `sudo service postgresql restart`    
 
-### Symfony Steps
+## Symfony Steps
 
 1. `cd` into the main project `ActiveSocial` and run `composer install` wait, follow instructions, wait some more.
 
