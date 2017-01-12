@@ -27,15 +27,15 @@ For more information on how to setup homestead official documentation [is locate
 6. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
 
    ```
-   folders:
-     - map: ~/BCVSocial
-     to: /home/vagrant/BCVSocial
-     type: nfs
+      folders:
+        - map: ~/BCVSocial
+        to: /home/vagrant/BCVSocial
+        type: nfs
 
-   sites:
-     - map: activesocial.bcv.dev ## Important, this is one of the allowed hostnames inside web/app_dev.php file.
-     to: /home/vagrant/BCVSocial/ActiveSocial/web
-     type: symfony
+      sites:
+        - map: activesocial.bcv.dev ## Important, this is one of the allowed hostnames inside web/app_dev.php file.
+        to: /home/vagrant/BCVSocial/ActiveSocial/web
+        type: symfony
    ```         
    
 ### Need some help with the markdown here please :(
