@@ -35,8 +35,7 @@ For more information on how to setup homestead official documentation [is locate
      to: /home/vagrant/BCVSocial/ActiveSocial/web
      type: symfony
    ```         
-         
-         
+   
 7. `vagrant provision & vagrant reload`
 
 8. Finally, if you try and run `vagrant ssh` you should ssh into the virtual machine.
