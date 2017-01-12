@@ -22,6 +22,10 @@ For more information on how to setup homestead official documentation [is locate
 
 4. `vagrant plugin install vagrant-vbguest`
 
+5. edit your `/etc/hosts` file and add the following entry: 
+   ```   
+       127.0.0.1       activesocial.bcv.dev
+   ```
 5. `bash init.sh && vagrant up`
 
 6. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
