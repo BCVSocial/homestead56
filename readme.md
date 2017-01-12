@@ -23,12 +23,14 @@ For more information on how to setup homestead official documentation [is locate
 4. `vagrant plugin install vagrant-vbguest`
 
 5. edit your `/etc/hosts` file and add the following entry: 
+
    ```   
        127.0.0.1       activesocial.bcv.dev
    ```
-5. `bash init.sh && vagrant up`
+   
+6. `bash init.sh && vagrant up`
 
-6. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
+7. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
 
    ```
        folders:
@@ -42,10 +44,9 @@ For more information on how to setup homestead official documentation [is locate
         type: symfony
    ```
 
-### Need some help with the markdown here please :(
-7. `vagrant provision & vagrant reload`
+8. `vagrant provision & vagrant reload`
 
-8. Finally, if you try and run `vagrant ssh` you should be able to ssh into the virtual machine, to continue with the symfony setup.
+9. Finally, if you try and run `vagrant ssh` you should be able to ssh into the virtual machine, to continue with the symfony setup.
 
 ### What's next ?
 
