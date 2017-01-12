@@ -8,6 +8,8 @@ It can only be used in *Mac* right now, but with some work it can work in *Windo
 
 Start by running `bash init.sh` within the main directory after cloning, this creates a new directory in ~/.Homestead56. Setup this box's Homestead file at ~/.Homestead56/Homestead.yaml
 
+*Every change to the Homestead.yaml file must be followed by a `vagrant provision`*
+
 For more information on how to setup homestead official documentation [is located here](https://laravel.com/docs/5.3/homestead).
 
 ### Steps
