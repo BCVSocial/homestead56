@@ -53,6 +53,7 @@ For more information on how to setup homestead official documentation [is locate
     * `SHOW hba_file;` Should be `/etc/postgresql/9.4/main/pg_hba.conf`
     
 11. Edit the file and look for the following lines: 
+
     ```
          TYPE  DATABASE        USER            ADDRESS                 METHOD
 
