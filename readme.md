@@ -45,4 +45,4 @@ After following these steps you should have a decent vagrant setup should contin
 
 ### Improvements ? 
 
-Go ahead :simple_smile: 
+Go ahead =)
