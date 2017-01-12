@@ -54,21 +54,19 @@ For more information on how to setup homestead official documentation [is locate
     
 11. Edit the file and look for the following lines: 
 
-    ```
-         TYPE  DATABASE        USER            ADDRESS                 METHOD
+    ```
+        host    all             all             127.0.0.1/32            md5
 
-         host    all             all             127.0.0.1/32            md5
+        host    all             PC             127.0.0.1/32             md5
 
-         host    all             PC             127.0.0.1/32             md5
-
-         host    all             all             ::1/128                 md5
-    ```
+        host    all             all             ::1/128                 md5
+    ```
     
-    * Change all ocurrences of `md5` to `trust`
+    * Change all ocurrences of *md5* to *trust* 
     
     
- 12. Run `sudo service postgresql restart`  
-    
+12. Run `sudo service postgresql restart`    
+
 ### Symfony Steps
 
 1. `cd` into the main project `ActiveSocial` and run `composer install` wait, follow instructions, wait some more.
