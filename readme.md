@@ -41,7 +41,7 @@ For more information on how to setup homestead official documentation [is locate
 ### Need some help with the markdown here please :(
 7. `vagrant provision & vagrant reload`
 
-8. Finally, if you try and run `vagrant ssh` you should ssh into the virtual machine.
+8. Finally, if you try and run `vagrant ssh` you should be able to ssh into the virtual machine, to continue with the symfony setup.
 
 ### What's next ?
 
