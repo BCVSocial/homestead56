@@ -22,7 +22,7 @@ For more information on how to setup homestead official documentation [is locate
 
 4. `vagrant plugin install vagrant-vbguest`
 
-5. `vagrant init`
+5. `bash init.sh && vagrant up`
 
 6. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
 
