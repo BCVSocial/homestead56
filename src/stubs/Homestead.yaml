@@ -12,6 +12,7 @@ keys:
 folders:
     - map: ~/BCVSocial
       to: /home/vagrant/BCVSocial
+      type: nfs
 
 sites:
     - map: activesocial.bcv.dev
