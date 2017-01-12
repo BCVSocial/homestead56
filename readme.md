@@ -26,11 +26,9 @@ For more information on how to setup homestead official documentation [is locate
 
    ```   
        127.0.0.1       activesocial.bcv.dev
-   ```
-   
-6. `bash init.sh && vagrant up`
+   ``` 
 
-7. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
+6. Check `~/.Homestead56/Homestead.yaml` to see if it matches your local setup of the project.
 
    ```
        folders:
@@ -43,6 +41,8 @@ For more information on how to setup homestead official documentation [is locate
         to: /home/vagrant/BCVSocial/ActiveSocial/web
         type: symfony
    ```
+
+7. `bash init.sh && vagrant up`
 
 8. `vagrant provision & vagrant reload`
 
