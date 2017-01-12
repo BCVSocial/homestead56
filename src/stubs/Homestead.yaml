@@ -14,7 +14,7 @@ folders:
       to: /home/vagrant/BCVSocial
 
 sites:
-    - map: activesocial.app
+    - map: activesocial.bcv.dev
       to: /home/vagrant/BCVSocial/ActiveSocial/web
       type: symfony
 
