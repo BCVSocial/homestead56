@@ -48,9 +48,15 @@ For more information on how to setup homestead official documentation [is locate
 
 9. Finally, if you try and run `vagrant ssh` you should be able to ssh into the virtual machine, to continue with the symfony setup.
 
+10. login to postgres to check where the pg_hba.conf file is:
+    * 1
+    * 2
+
 ### Symfony Steps
 
-1. 
+1. `cd` into the main project `ActiveSocial` and run `composer install` wait, follow instructions, wait some more.
+
+2. 
 
 After following these steps you should have a decent vagrant setup should continue with steps outlined [is located here](https://github.com/BCVSocial/ActiveSocial)
 
