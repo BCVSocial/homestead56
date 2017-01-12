@@ -10,12 +10,13 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Code
-      to: /home/vagrant/Code
+    - map: ~/BCVSocial
+      to: /home/vagrant/BCVSocial
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/Laravel/public
+    - map: activesocial.app
+      to: /home/vagrant/BCVSocial/ActiveSocial/web
+      type: symfony
 
 databases:
     - homestead
