@@ -81,7 +81,7 @@ After following these steps you should have a decent vagrant/symfony setup.
 
 ### TODO
 
-Improve performance, it's a littles slow. See http://www.whitewashing.de/2013/08/19/speedup_symfony2_on_vagrant_boxes.html
+Improve performance, it's a little slow, see http://www.whitewashing.de/2013/08/19/speedup_symfony2_on_vagrant_boxes.html
 
 ### Improvements ? 
 
