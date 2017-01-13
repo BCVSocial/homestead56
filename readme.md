@@ -78,7 +78,11 @@ For more information on how to setup homestead official documentation [is locate
 4. `php app/console hautelook_alice:doctrine:fixtures:load` 
 
 
-After following these steps you should have a decent vagrant/symfony setup.
+After following these steps you should have a decent vagrant/symfony setup, remember to update your config.js file:
+```
+    export const serverUrl = 'http://activesocial.bcv.dev:8000/app_dev.php';
+    
+```
 
 ### TODO
 
