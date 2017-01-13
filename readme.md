@@ -92,17 +92,17 @@ Improve performance, it's a little slow, see http://www.whitewashing.de/2013/08/
 
 Go ahead =)
 
-## Note: 
+## Problems: 
 
-### If you encounter: 
 
+### Vagrant problem
 ```
 NFS is reporting that your exports file is invalid. Vagrant does
 this check before making any changes to the file. Please correct
 the issues below and execute "vagrant reload":
 ```
 
-### Run: 
+#### Run: 
 ```
 sudo rm /etc/exports
 sudo touch /etc/exports
@@ -110,3 +110,6 @@ sudo touch /etc/exports
 vagrant halt
 vagrant up --provision
 ```
+
+### Chaning Server App Url
+If you need to update the app url for symfony, edit config/parameters.yaml inside the app directory. After you have done that, from roo directory run: `php app/console cache:clear --env=dev`
