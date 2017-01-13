@@ -1,6 +1,6 @@
 # Vagrant Box ActiveSocial - BCV FE team
 
-## Vagrant Box with PHP57/Postgres
+## Vagrant Box with PHP56/Postgres
 
 This is a minimalistic PHP57/Postgres vagrant box meant to be used by the FE, so it might not be fully featured for all the projects requirements. However, it can be twaked to include anything else the team might need that doesn't require a lot of effort. The goal is to jumpstart the development proccess for FE'ends if they strictly need something that the staging server can't provide. *e.g* generating the reset password link to be used locally.
 
